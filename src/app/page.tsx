@@ -24,7 +24,7 @@ export default function Home() {
         disabled={!sessionName}
         onClick={() => router.push(`/call/${sessionName}`)}
       >
-        Create Session
+        New Session
       </Button>
     </main>
   );
